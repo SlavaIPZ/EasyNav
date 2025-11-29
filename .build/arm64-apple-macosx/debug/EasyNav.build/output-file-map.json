@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/master.swiftdeps"
+  },
+  "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Sources/EasyNav/EasyNav.swift": {
+    "dependencies": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.d",
+    "object": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.swift.o",
+    "swiftmodule": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav~partial.swiftmodule",
+    "swift-dependencies": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.swiftdeps",
+    "diagnostics": "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.dia"
+  }
+}

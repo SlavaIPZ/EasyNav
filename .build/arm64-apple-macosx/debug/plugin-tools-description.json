@@ -1,0 +1,638 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.xctest/Contents/MacOS/EasyNavPackageTests",
+      "packagePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav",
+      "productName" : "EasyNavPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.EasyNav-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/sources",
+      "importPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Sources/EasyNav/EasyNav.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EasyNav",
+      "moduleOutputPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNav.swiftmodule",
+      "objects" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/include/EasyNav-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "easynav"
+      ],
+      "outputFileMapPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNav.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Sources/EasyNav/EasyNav.swift"
+      ],
+      "tempsPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EasyNavPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/sources",
+      "importPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNavTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EasyNavPackageTests",
+      "moduleOutputPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNavPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/include/EasyNavPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "easynav"
+      ],
+      "outputFileMapPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNavPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.EasyNavTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/sources",
+      "importPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Tests/EasyNavTests/EasyNavTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNav.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "EasyNavTests",
+      "moduleOutputPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNavTests.swiftmodule",
+      "objects" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/EasyNavTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "easynav"
+      ],
+      "outputFileMapPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/EasyNavTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules/EasyNavTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Tests/EasyNavTests/EasyNavTests.swift"
+      ],
+      "tempsPath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "EasyNav" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EasyNav",
+      "-package-name",
+      "easynav",
+      "-c",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Sources/EasyNav/EasyNav.swift",
+      "-I",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/include/EasyNav-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "easynav",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EasyNavPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EasyNavPackageTests",
+      "-package-name",
+      "easynav",
+      "-c",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/include/EasyNavPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "easynav",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "EasyNavTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "EasyNavTests",
+      "-package-name",
+      "easynav",
+      "-c",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Tests/EasyNavTests/EasyNavTests.swift",
+      "-I",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "easynav",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "EasyNav" : [
+
+    ],
+    "EasyNavPackageTests" : [
+      "EasyNavTests",
+      "EasyNav"
+    ],
+    "EasyNavTests" : [
+      "EasyNav"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Sources/EasyNav/EasyNav.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/sources"
+    },
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/sources"
+    },
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNav.build/EasyNav.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/EasyNavTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/Tests/EasyNavTests/EasyNavTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/EasyNavTests.build/sources"
+    },
+    "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/yaroslavfrankiv/Desktop/Zalik_Frankiv/EasyNav/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
